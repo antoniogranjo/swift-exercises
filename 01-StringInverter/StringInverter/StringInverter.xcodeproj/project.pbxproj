@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C58C243C1EBD2F00005E139E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C243B1EBD2F00005E139E /* AppDelegate.swift */; };
+		C58C243E1EBD2F00005E139E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C243D1EBD2F00005E139E /* ViewController.swift */; };
+		C58C24411EBD2F00005E139E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58C243F1EBD2F00005E139E /* Main.storyboard */; };
+		C58C24431EBD2F00005E139E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C58C24421EBD2F00005E139E /* Assets.xcassets */; };
+		C58C24461EBD2F00005E139E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C58C24441EBD2F00005E139E /* LaunchScreen.storyboard */; };
+		C58C24511EBD2F00005E139E /* StringInverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C24501EBD2F00005E139E /* StringInverterTests.swift */; };
+		C58C245C1EBD2F00005E139E /* StringInverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C58C245B1EBD2F00005E139E /* StringInverterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C58C244D1EBD2F00005E139E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58C24301EBD2F00005E139E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58C24371EBD2F00005E139E;
+			remoteInfo = StringInverter;
+		};
+		C58C24581EBD2F00005E139E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C58C24301EBD2F00005E139E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C58C24371EBD2F00005E139E;
+			remoteInfo = StringInverter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C58C24381EBD2F00005E139E /* StringInverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringInverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C243B1EBD2F00005E139E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C58C243D1EBD2F00005E139E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C58C24401EBD2F00005E139E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C58C24421EBD2F00005E139E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C58C24451EBD2F00005E139E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C58C24471EBD2F00005E139E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58C244C1EBD2F00005E139E /* StringInverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringInverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C24501EBD2F00005E139E /* StringInverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInverterTests.swift; sourceTree = "<group>"; };
+		C58C24521EBD2F00005E139E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C58C24571EBD2F00005E139E /* StringInverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StringInverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C58C245B1EBD2F00005E139E /* StringInverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringInverterUITests.swift; sourceTree = "<group>"; };
+		C58C245D1EBD2F00005E139E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C58C24351EBD2F00005E139E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C24491EBD2F00005E139E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C24541EBD2F00005E139E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C58C242F1EBD2F00005E139E = {
+			isa = PBXGroup;
+			children = (
+				C58C243A1EBD2F00005E139E /* StringInverter */,
+				C58C244F1EBD2F00005E139E /* StringInverterTests */,
+				C58C245A1EBD2F00005E139E /* StringInverterUITests */,
+				C58C24391EBD2F00005E139E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C58C24391EBD2F00005E139E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C58C24381EBD2F00005E139E /* StringInverter.app */,
+				C58C244C1EBD2F00005E139E /* StringInverterTests.xctest */,
+				C58C24571EBD2F00005E139E /* StringInverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C58C243A1EBD2F00005E139E /* StringInverter */ = {
+			isa = PBXGroup;
+			children = (
+				C58C243B1EBD2F00005E139E /* AppDelegate.swift */,
+				C58C243D1EBD2F00005E139E /* ViewController.swift */,
+				C58C243F1EBD2F00005E139E /* Main.storyboard */,
+				C58C24421EBD2F00005E139E /* Assets.xcassets */,
+				C58C24441EBD2F00005E139E /* LaunchScreen.storyboard */,
+				C58C24471EBD2F00005E139E /* Info.plist */,
+			);
+			path = StringInverter;
+			sourceTree = "<group>";
+		};
+		C58C244F1EBD2F00005E139E /* StringInverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				C58C24501EBD2F00005E139E /* StringInverterTests.swift */,
+				C58C24521EBD2F00005E139E /* Info.plist */,
+			);
+			path = StringInverterTests;
+			sourceTree = "<group>";
+		};
+		C58C245A1EBD2F00005E139E /* StringInverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C58C245B1EBD2F00005E139E /* StringInverterUITests.swift */,
+				C58C245D1EBD2F00005E139E /* Info.plist */,
+			);
+			path = StringInverterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C58C24371EBD2F00005E139E /* StringInverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C24601EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverter" */;
+			buildPhases = (
+				C58C24341EBD2F00005E139E /* Sources */,
+				C58C24351EBD2F00005E139E /* Frameworks */,
+				C58C24361EBD2F00005E139E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StringInverter;
+			productName = StringInverter;
+			productReference = C58C24381EBD2F00005E139E /* StringInverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C58C244B1EBD2F00005E139E /* StringInverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C24631EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverterTests" */;
+			buildPhases = (
+				C58C24481EBD2F00005E139E /* Sources */,
+				C58C24491EBD2F00005E139E /* Frameworks */,
+				C58C244A1EBD2F00005E139E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58C244E1EBD2F00005E139E /* PBXTargetDependency */,
+			);
+			name = StringInverterTests;
+			productName = StringInverterTests;
+			productReference = C58C244C1EBD2F00005E139E /* StringInverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C58C24561EBD2F00005E139E /* StringInverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C58C24661EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverterUITests" */;
+			buildPhases = (
+				C58C24531EBD2F00005E139E /* Sources */,
+				C58C24541EBD2F00005E139E /* Frameworks */,
+				C58C24551EBD2F00005E139E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C58C24591EBD2F00005E139E /* PBXTargetDependency */,
+			);
+			name = StringInverterUITests;
+			productName = StringInverterUITests;
+			productReference = C58C24571EBD2F00005E139E /* StringInverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C58C24301EBD2F00005E139E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Antonio Granjo";
+				TargetAttributes = {
+					C58C24371EBD2F00005E139E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6LT86HHWG3;
+						ProvisioningStyle = Automatic;
+					};
+					C58C244B1EBD2F00005E139E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6LT86HHWG3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C58C24371EBD2F00005E139E;
+					};
+					C58C24561EBD2F00005E139E = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 6LT86HHWG3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C58C24371EBD2F00005E139E;
+					};
+				};
+			};
+			buildConfigurationList = C58C24331EBD2F00005E139E /* Build configuration list for PBXProject "StringInverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C58C242F1EBD2F00005E139E;
+			productRefGroup = C58C24391EBD2F00005E139E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58C24371EBD2F00005E139E /* StringInverter */,
+				C58C244B1EBD2F00005E139E /* StringInverterTests */,
+				C58C24561EBD2F00005E139E /* StringInverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C58C24361EBD2F00005E139E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C24461EBD2F00005E139E /* LaunchScreen.storyboard in Resources */,
+				C58C24431EBD2F00005E139E /* Assets.xcassets in Resources */,
+				C58C24411EBD2F00005E139E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C244A1EBD2F00005E139E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C24551EBD2F00005E139E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C58C24341EBD2F00005E139E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C243E1EBD2F00005E139E /* ViewController.swift in Sources */,
+				C58C243C1EBD2F00005E139E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C24481EBD2F00005E139E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C24511EBD2F00005E139E /* StringInverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C58C24531EBD2F00005E139E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C58C245C1EBD2F00005E139E /* StringInverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C58C244E1EBD2F00005E139E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58C24371EBD2F00005E139E /* StringInverter */;
+			targetProxy = C58C244D1EBD2F00005E139E /* PBXContainerItemProxy */;
+		};
+		C58C24591EBD2F00005E139E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C58C24371EBD2F00005E139E /* StringInverter */;
+			targetProxy = C58C24581EBD2F00005E139E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C58C243F1EBD2F00005E139E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58C24401EBD2F00005E139E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C58C24441EBD2F00005E139E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C58C24451EBD2F00005E139E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C58C245E1EBD2F00005E139E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C58C245F1EBD2F00005E139E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C58C24611EBD2F00005E139E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C58C24621EBD2F00005E139E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C58C24641EBD2F00005E139E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringInverter.app/StringInverter";
+			};
+			name = Debug;
+		};
+		C58C24651EBD2F00005E139E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StringInverter.app/StringInverter";
+			};
+			name = Release;
+		};
+		C58C24671EBD2F00005E139E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StringInverter;
+			};
+			name = Debug;
+		};
+		C58C24681EBD2F00005E139E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6LT86HHWG3;
+				INFOPLIST_FILE = StringInverterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = es.agc.StringInverterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = StringInverter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C58C24331EBD2F00005E139E /* Build configuration list for PBXProject "StringInverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C245E1EBD2F00005E139E /* Debug */,
+				C58C245F1EBD2F00005E139E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C58C24601EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C24611EBD2F00005E139E /* Debug */,
+				C58C24621EBD2F00005E139E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C58C24631EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C24641EBD2F00005E139E /* Debug */,
+				C58C24651EBD2F00005E139E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C58C24661EBD2F00005E139E /* Build configuration list for PBXNativeTarget "StringInverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C58C24671EBD2F00005E139E /* Debug */,
+				C58C24681EBD2F00005E139E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C58C24301EBD2F00005E139E /* Project object */;
+}
